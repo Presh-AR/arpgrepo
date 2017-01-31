@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>37.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>SamplePage</members>
+        <name>ApexPage</name>
+    </types>
     <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
@@ -217,6 +219,7 @@
         <members>Contact.Phone</members>
         <members>Contact.ReportsToId</members>
         <members>Contact.Test1__c</members>
+        <members>Contact.Test2__c</members>
         <members>Contact.Title</members>
         <members>ContentVersion.Description</members>
         <members>ContentVersion.FileType</members>
@@ -425,6 +428,7 @@
         <members>Opportunity.Amount</members>
         <members>Opportunity.CampaignId</members>
         <members>Opportunity.CloseDate</members>
+        <members>Opportunity.Close_Date_Actual__c</members>
         <members>Opportunity.ContractId</members>
         <members>Opportunity.CurrentGenerators__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
@@ -631,6 +635,10 @@
         <name>EscalationRules</name>
     </types>
     <types>
+        <members>GlobalPicklist1</members>
+        <name>GlobalPicklist</name>
+    </types>
+    <types>
         <members>DE Default</members>
         <name>HomePageLayout</name>
     </types>
@@ -785,6 +793,10 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Case.NewChildCase</members>
+        <members>CollaborationGroup.NewGroupMember</members>
+        <members>CollaborationGroup.NewGroupRecord</members>
+        <members>FeedItem.NewTaskFromFeedItem</members>
         <members>LogACall</members>
         <members>NewAccount</members>
         <members>NewCase</members>
@@ -795,6 +807,14 @@
         <members>NewNote</members>
         <members>NewOpportunity</members>
         <members>NewTask</members>
+        <members>Task.Defer</members>
+        <members>Task.Defer_0</members>
+        <members>Task.EditDescription</members>
+        <members>Task.EditDescription_0</members>
+        <members>Task.UpdatePriority</members>
+        <members>Task.UpdatePriority_0</members>
+        <members>Task.UpdateStatus</members>
+        <members>Task.UpdateStatus_0</members>
         <name>QuickAction</name>
     </types>
     <types>
@@ -874,4 +894,5 @@
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
     </types>
+    <version>37.0</version>
 </Package>
