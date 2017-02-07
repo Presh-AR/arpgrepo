@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>37.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>A0</members>
+        <members>a0testclass</members>
+        <name>ApexClass</name>
+    </types>
     <types>
         <members>SamplePage</members>
         <name>ApexPage</name>
@@ -904,4 +907,5 @@
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
     </types>
+    <version>37.0</version>
 </Package>
