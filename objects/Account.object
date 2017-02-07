@@ -590,6 +590,12 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Name_Cannot_be_Blank</fullName>
+        <active>true</active>
+        <errorConditionFormula>isblank(Name)</errorConditionFormula>
+        <errorMessage>Name vcannot be blank</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>

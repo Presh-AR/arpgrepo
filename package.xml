@@ -894,6 +894,10 @@
         <name>SharingRules</name>
     </types>
     <types>
+        <members>Account.Name_Cannot_be_Blank</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
